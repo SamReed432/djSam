@@ -6,30 +6,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
 	<style>
-		header {
-			background-color: #0E62BF;
-			padding: 30px;
-			padding-top: 40px;
-		}
-		#main_title {
-			font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; 
-			font-size: 90px;
-			color: aliceblue;
-		}
-		#main_nav {
-			color: aliceblue;
-			background-color: #0E62BF;
-			float: right;
-			padding-top: 60px;
-			font-size: 30px;
-		}
-		.active {
-			padding-right: 40px;
-			color: #C8E7FF;
-			text-decoration: none;
-			font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
-		}
 		.button {
 			background-color: #1A7FEE;
 			padding: 15px;
@@ -39,12 +17,6 @@
 			border-radius: 15px;
 			margin: 30px;
 				
-		}
-		#main-content {
-			text-align: center;
-			margin: 20px;
-			font-family: 'Ubuntu', sans-serif;
-			font-size: 25px;
 		}
 		h1 {
 			font-size: 40px;
@@ -58,35 +30,33 @@
 			padding: 50px;
 			border-radius: 70px;
 		}
-		footer {
-			padding: 25px;
-		}
+		
 	</style>
 </head>
 
 <body>
-	<header><span id="main_title">DJ Sam</span>
+<header><span id="main_title" href="#home">DJ Sam</span>
 		<div id="main_nav">
 			<a class="active" href="#home">Home</a>
 			<a class="active" href="#contact">Contact</a>
-			<a class="active" href="https://onsamsmind.wixsite.com/onsamsmind">About</a>
+			<a class="active" href="pages/about.html">About</a>
 	</div></header>
 	
-	<div id="main-content">
+<div id="main-content">
 		<h1>DJ Sam</h1>
 		<p>Wether you are looking for music to get your fundraiser or event rocking, or a high quiality reliable sound system for your cooporate or community event, DJ Sam has got what you need!</p>
 		&nbsp;
 		<div id="first_buttons">
-			<span class="button">DJ Services</span><span class="button">Sound System Services</span>
+			<span class="button" href="pages/about.html#DJ_services">DJ Services</span><span class="button" href="pages/about.html#SS_services">Sound System Services</span>
 		</div>
 		<div>
-			&nbsp;
-			<img src="dj_img1.jpg" alt="Wedding Dance with DJ Equipment" class="img">
+		  &nbsp;
+		  <img src="dj_img1.jpg" alt="Wedding Dance with DJ Equipment" class="img">
 		</div>
 	</div>
 	
 	<footer>
-		<p>DJ Sam Inc</p>
+		<p>DJ Sam Inc 2020</p>
 	</footer>
 </body>
 </html>

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+			background-color: #0E62BF;
+			padding: 30px;
+			padding-top: 40px;
+		}
+		#main_title {
+			font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; 
+			font-size: 90px;
+			color: aliceblue;
+		}
+		#main_nav {
+			color: aliceblue;
+			background-color: #0E62BF;
+			float: right;
+			padding-top: 60px;
+			font-size: 30px;
+		}
+		.active {
+			padding-right: 40px;
+			color: #C8E7FF;
+			text-decoration: none;
+			font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		}
+		footer {
+			padding: 25px;
+			text-align: center;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: bold;
+			font-size: 22px;
+		}
+		#main-content {
+			text-align: center;
+			margin: 20px;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 25px;
+		}
