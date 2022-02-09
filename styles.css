@@ -38,7 +38,7 @@ header {
 			font-size: 25px;
 		}
 		#logo {
-			height: 75px;
+			max-height: 75px;
 			width: auto
 			
 		}
