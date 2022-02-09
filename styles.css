@@ -38,7 +38,7 @@ header {
 			font-size: 25px;
 		}
 		#logo {
-			max-width: 25%;
-			max-height: 30%;
-			padding-left: 15px;
+			height: 75px;
+			width: auto
+			
 		}
