@@ -4,20 +4,33 @@
 <meta charset="utf-8">
 <title>contact</title>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		#form {
+			border:1.5px solid #0E62BF;
+			margin-right: 200px;
+			margin-left: 200px;
+			line-height: 50px;
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		}
+		#contact {
+			color: #0E62BF;
+			
+		}
+	</style>
 </head>
 
 <body>
-	<header><a href="index.html" style="text-decoration: none"><span id="main_title">DJ Sam</span></a>
+	<header><a href="index.html" style="text-decoration: none"><span id="main_title">DJ Sam</span></a><img src="logo.png" id="logo">
 		<div id="main_nav">
 			<a class="active" href="index.html">Home</a>
 			<a class="active" href="contact.html" style="color: #003A4B">Contact</a>
-			<a class="active" href="about.html">About</a>
+			<a class="active" href="about.html">Services</a>
 	</div></header>
 	<div id="main-content">
 		<h1>Contact Us</h1>
 		<p>You can reach us at any of the places below, or fill out the form!</p>
-		
-		<form>
+		<div id="form">
+		<form action="contact.html" method="POST">
 			<label>Name: </label><input><br>
 			<label>Email/Phone: </label><input><br>
 			<label>Event Requesting Information About:</label><textarea></textarea><br>
@@ -25,10 +38,11 @@
 			<label>Date (if applicable):</label><input><br>
 			<input type="submit" value="Submit">
 		</form>
+		</div>	
 		
-		<div>
-			<p>Email:samreed12@att.net</p>
-			<p>Number: 860-575-2320</p>
+		<div id="contact">
+			<p>Email: <a href="mailto:samreed12@att.net" style="text-decoration: none; color: #0E62BF;">samreed12@att.net</a></p>
+			<p>Number: <a href="tel:860-575-2320" style="text-decoration: none; color: #0E62BF;">860-575-2320</a></p>
 		</div>
 	</div>
 	
