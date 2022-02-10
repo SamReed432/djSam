@@ -73,6 +73,9 @@
 	#logo {
 		height: 50px;
 	}
+	.button {
+		display: flex;
+	}
 	}
 @media (max-width: 661px){
 	.active {
