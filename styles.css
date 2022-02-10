@@ -47,3 +47,41 @@
 			width: auto
 			
 		}
+
+@media screen and (max-width: 1050px){
+		.active {
+			padding:0px;
+			font-size: 20px;
+			
+		}	
+	}
+@media screen and (max-width: 800px){
+		.active {
+			padding:10px;
+			margin: 0px;
+			font-size: 20px;
+		}	
+	#main_nav {
+		padding: 0px;
+		padding-top: 20px;
+		margin: 0px;
+	}
+	
+	#main_title {
+		font-size: 50px;
+	}
+	#logo {
+		height: 50px;
+	}
+	}
+@media (max-width: 661px){
+	.active {
+			display:flex;
+		}	
+}
+
+@media (max-width: 216px){
+	#logo {
+		display: none;
+	}
+}
