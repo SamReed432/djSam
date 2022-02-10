@@ -47,7 +47,16 @@
 			width: auto
 			
 		}
-
+		.notel {
+			width: 30px;
+			position: absolute;
+			left: 10%;
+		}
+		.noter {
+			width: 30px;
+			position: absolute;
+			right: 10%;
+		}
 @media screen and (max-width: 1050px){
 		.active {
 			padding:0px;
@@ -87,4 +96,12 @@
 	#logo {
 		display: none;
 	}
+}
+
+@media (max-width: 385px){
+	.notel {
+			display: none;
+		}
+		.noter {
+			display: none;
 }
