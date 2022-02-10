@@ -49,11 +49,13 @@
 		}
 		.notel {
 			width: 30px;
+			height: auto;
 			position: absolute;
 			left: 10%;
 		}
 		.noter {
 			width: 30px;
+			height: auto;
 			position: absolute;
 			right: 10%;
 		}
