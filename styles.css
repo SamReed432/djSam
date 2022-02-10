@@ -1,10 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-header {
+		header {
 			background-color: #0E62BF;
 			padding: 30px;
 			padding-top: 40px;
+			display: block;
+			margin-top: 0px;
+			background-size: cover;
 		}
 		#main_title {
 			font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; 
