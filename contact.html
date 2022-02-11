@@ -33,12 +33,16 @@
 		<h1>Contact Us</h1>
 		<p>You can reach us at any of the places below, or fill out the form!</p>
 		<div id="form">
-		<form action="contact.html" method="POST">
+		<form action="contact.html" method="get">
 			<label>Name: </label><input><br>
 			<label>Email/Phone: </label><input><br>
 			<label>Event Requesting Information About:</label><textarea></textarea><br>
 			<label>Date (if applicable):</label><input><br>
-			<label>Date (if applicable):</label><input><br>
+			<input type="checkbox" name="DJ" value="DJ"><label for="DJ">DJ</label>
+			<input type="checkbox" name="SS" value="SS"><label for="SS">Sound System (No DJ)</label><br>
+			Extras:
+			<input type="checkbox" name="Lights" value="Lights"><label for="Lights">Ligting</label>
+			<input type="checkbox" name="Giveaways" value="Giveaways"><label for="Giveaways">Giveaways</label><br>
 			<input type="submit" value="Submit">
 		</form>
 		</div>	
