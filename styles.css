@@ -5,8 +5,8 @@
 		}
 		header {
 			background-color: #0E62BF;
-			padding: 30px;
-			padding-top: 40px;
+			padding: 20px;
+			padding-top: 30px;
 			display: block;
 			margin: -10px;
 			background-size: cover;
@@ -15,6 +15,7 @@
 			font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; 
 			font-size: 90px;
 			color: aliceblue;
+			margin-left: 5%
 		}
 		#main_nav {
 			color: aliceblue;
@@ -28,6 +29,7 @@
 			color: #C8E7FF;
 			text-decoration: none;
 			font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+			text-align: center;
 		}
 		footer {
 			padding: 25px;
